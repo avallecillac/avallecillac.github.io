@@ -21,6 +21,8 @@
 title: tech-for-humans
 email: avallecillac@gmail.com
 description: Explaining tech to humans kindly
+baseurl: "/_sites" # the subpath of your site, e.g. /blog
+url: "https://avallecillac.github.io/tech-for-humans" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: avallecillac
 github_username:  avallecillac
 
