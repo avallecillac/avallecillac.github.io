@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-17T12:42:30+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tech-for-humans</title><subtitle>Explaining tech for humans kindly</subtitle><entry><title type="html">*The Cloud* in human words</title><link href="http://localhost:4000/2020/05/16/cloud.html" rel="alternate" type="text/html" title="*The Cloud* in human words" /><published>2020-05-16T21:10:26+02:00</published><updated>2020-05-16T21:10:26+02:00</updated><id>http://localhost:4000/2020/05/16/cloud</id><content type="html" xml:base="http://localhost:4000/2020/05/16/cloud.html">&lt;p&gt;For this journey, I wanted to start by explaining what &lt;strong&gt;The Cloud&lt;/strong&gt; is in real-world words.&lt;/p&gt;
+
+&lt;p&gt;We are about to start reading a lot of new words that might sound too technical, so let´s use a metaphor to smooth things up.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;DataCenter&lt;/strong&gt; = Fridge (Yes, the fridge from your house).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Computers/Servers&lt;/strong&gt; = Compartments of the fridge.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Applications&lt;/strong&gt; = Food stored in the compartments.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The fridge keeps the ideal temperature to preserve the food inside. 
+&lt;strong&gt;Datacenter&lt;/strong&gt; is a large warehouse full of racks with powerful computers. Just like your laptop, these super computers can heat up and eventually break, so proper refrigeration is required to keep them stable.&lt;/li&gt;
+  &lt;li&gt;Compartments have different sizes and some even have a lid for long preservation.
+&lt;strong&gt;Computers/Servers&lt;/strong&gt; have different design, specifications and operating systems to host different types of applications.&lt;/li&gt;
+  &lt;li&gt;Food is organized in the compartments based on their type: Fruits, vegetables, meat, dairy, etc.
+&lt;strong&gt;Applications&lt;/strong&gt; are programs installed in computers. And these are the ones you interact with every day of your life from your smartphones and computers. Believe or not, these applications such as WhatsApp, Instagram, Facebook and Google are all installed in the super computers and Datacenters described above.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I hope you are still with me. Now, lets put these concepts in practice and see how they will become &lt;strong&gt;“The Cloud”&lt;/strong&gt; and how it impacts us.&lt;/p&gt;
+
+&lt;p&gt;Let’s say you just started a small home made ice cream shop. You bought a small fridge to store fruits, milk, rest of ingredients and, of course, ice cream. To follow up our metaphor, you now have a mini Datacenter, with 
+a couple of computers and some applications installed on them.&lt;/p&gt;
+
+&lt;p&gt;After four months, your business starts thriving and the small fridge is not large enough to store the ramp-up of ingredients. After some calculations, you decide to buy two industrial fridges so you don’t have to worry about storage for a while. Industrial fridges will prolong ingredients conservation and store a wider sort of new ingredients for the additional flavors you offer now.&lt;/p&gt;
+
+&lt;p&gt;Congratulations, your business is very popular and demand is growing steadily. You open a couple of new shops and thereby more fridges. Costs are now higher, fridges’ maintenance has become a thing to be dealt with as they are an essential asset to run the business. Transport of ingredients across all shops is overwhelming and very inefficient. Same happens with running computers&lt;/p&gt;
+
+&lt;p&gt;Before I dive deeper into this &lt;strong&gt;cloudy&lt;/strong&gt; topic, let’s first understand how this new buzzword became a trend.&lt;/p&gt;</content><author><name></name></author><summary type="html">For this journey, I wanted to start by explaining what The Cloud is in real-world words.</summary></entry></feed>
