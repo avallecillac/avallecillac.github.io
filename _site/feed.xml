@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-17T12:42:30+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tech-for-humans</title><subtitle>Explaining tech for humans kindly</subtitle><entry><title type="html">*The Cloud* in human words</title><link href="http://localhost:4000/2020/05/16/cloud.html" rel="alternate" type="text/html" title="*The Cloud* in human words" /><published>2020-05-16T21:10:26+02:00</published><updated>2020-05-16T21:10:26+02:00</updated><id>http://localhost:4000/2020/05/16/cloud</id><content type="html" xml:base="http://localhost:4000/2020/05/16/cloud.html">&lt;p&gt;For this journey, I wanted to start by explaining what &lt;strong&gt;The Cloud&lt;/strong&gt; is in real-world words.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-18T09:09:59+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tech-for-humans</title><subtitle>Explaining tech to humans kindly</subtitle><entry><title type="html">*The Cloud* in human words</title><link href="http://localhost:4000/2020/05/16/cloud.html" rel="alternate" type="text/html" title="*The Cloud* in human words" /><published>2020-05-16T21:10:26+02:00</published><updated>2020-05-16T21:10:26+02:00</updated><id>http://localhost:4000/2020/05/16/cloud</id><content type="html" xml:base="http://localhost:4000/2020/05/16/cloud.html">&lt;p&gt;For this journey, I wanted to start by explaining what &lt;strong&gt;The Cloud&lt;/strong&gt; is in real-world words.&lt;/p&gt;
 
 &lt;p&gt;We are about to start reading a lot of new words that might sound too technical, so let´s use a metaphor to smooth things up.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-fridge-metaphor&quot;&gt;The Fridge metaphor&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;DataCenter&lt;/strong&gt; = Fridge (Yes, the fridge from your house).&lt;/p&gt;
 
@@ -10,20 +12,42 @@
 
 &lt;ul&gt;
   &lt;li&gt;The fridge keeps the ideal temperature to preserve the food inside. 
-&lt;strong&gt;Datacenter&lt;/strong&gt; is a large warehouse full of racks with powerful computers. Just like your laptop, these super computers can heat up and eventually break, so proper refrigeration is required to keep them stable.&lt;/li&gt;
+&lt;strong&gt;Datacenter&lt;/strong&gt; is a large facility full of racks with powerful computers and many other devices. Just like your laptop, these super computers can heat up and eventually break, so proper refrigeration is required to keep them stable.&lt;/li&gt;
   &lt;li&gt;Compartments have different sizes and some even have a lid for long preservation.
 &lt;strong&gt;Computers/Servers&lt;/strong&gt; have different design, specifications and operating systems to host different types of applications.&lt;/li&gt;
   &lt;li&gt;Food is organized in the compartments based on their type: Fruits, vegetables, meat, dairy, etc.
-&lt;strong&gt;Applications&lt;/strong&gt; are programs installed in computers. And these are the ones you interact with every day of your life from your smartphones and computers. Believe or not, these applications such as WhatsApp, Instagram, Facebook and Google are all installed in the super computers and Datacenters described above.&lt;/li&gt;
+&lt;strong&gt;Applications&lt;/strong&gt; are programs installed in computers. And these are the ones you interact with every day of your life from your smartphones and computers. Believe it or not, these applications such as WhatsApp, Instagram, Facebook and Google are all installed in the super computers and Datacenters described above.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;img src=&quot;/assets/images/cloud/fridge-sm.png&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;I hope you are still with me. Now, lets put these concepts in practice and see how they will become &lt;strong&gt;“The Cloud”&lt;/strong&gt; and how it impacts us.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-ice-cream-shop-business-success-case&quot;&gt;The ice cream shop business success case&lt;/h3&gt;
 
 &lt;p&gt;Let’s say you just started a small home made ice cream shop. You bought a small fridge to store fruits, milk, rest of ingredients and, of course, ice cream. To follow up our metaphor, you now have a mini Datacenter, with 
 a couple of computers and some applications installed on them.&lt;/p&gt;
 
 &lt;p&gt;After four months, your business starts thriving and the small fridge is not large enough to store the ramp-up of ingredients. After some calculations, you decide to buy two industrial fridges so you don’t have to worry about storage for a while. Industrial fridges will prolong ingredients conservation and store a wider sort of new ingredients for the additional flavors you offer now.&lt;/p&gt;
 
-&lt;p&gt;Congratulations, your business is very popular and demand is growing steadily. You open a couple of new shops and thereby more fridges. Costs are now higher, fridges’ maintenance has become a thing to be dealt with as they are an essential asset to run the business. Transport of ingredients across all shops is overwhelming and very inefficient. Same happens with running computers&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/cloud/ice-cream.jpg&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Before I dive deeper into this &lt;strong&gt;cloudy&lt;/strong&gt; topic, let’s first understand how this new buzzword became a trend.&lt;/p&gt;</content><author><name></name></author><summary type="html">For this journey, I wanted to start by explaining what The Cloud is in real-world words.</summary></entry></feed>
+&lt;p&gt;Congratulations, your business is very popular and demand is growing steadily. You open a couple of new shops and thereby more fridges. Costs are now higher, fridges’ maintenance has become a thing to be dealt with as they are an essential asset to run the business. Transport of ingredients across all shops is overwhelming and very inefficient. You have hired new staff specialized in the novel areas your company has.&lt;/p&gt;
+
+&lt;p&gt;At this point, you start to suffer the same problems as many companies which their business are supported by technology. They start having a lot of servers located in rooms with specific conditions -mini datacenters- across all locations.&lt;/p&gt;
+
+&lt;p&gt;Your ice cream brand has positioned in the market as one of the favorite by people and has gone national and you decided to franchised the business so you can scale faster and delegate management. By now, you have several facilities across the country full of fridges -and many other types of devices- that store huge amounts of ingredients to be delivered to all shops. The fridges you have now are way too far ahead, specs wise, from the firsts you bought.&lt;/p&gt;
+
+&lt;p&gt;You may noticed that your business model has changed dramatically. You are no longer only an ice cream shop, you’ve become a fridge provider at large scale and any other business that require this type of service is a potential customer.&lt;/p&gt;
+
+&lt;h3 id=&quot;lets-go-back-to-our-metaphor&quot;&gt;Let’s go back to our metaphor.&lt;/h3&gt;
+
+&lt;p&gt;You are now the owner of thousands of &lt;strong&gt;Datacenters&lt;/strong&gt; located in large warehouses distributed across the country. Which means that you have thousands/millions of &lt;strong&gt;computers/servers&lt;/strong&gt; and even more applications installed, these applications are not only the ones to run your ice cream business, but also applications from other customers that pay you to host them so they don’t have to build all the infrastructure you have built over the time. This robust infrastructure is what we call a &lt;strong&gt;Cloud&lt;/strong&gt;. In some manner, you are a Cloud provider.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/cloud/datacenter.jpg&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nowadays, there are many cloud providers around the world. However, there are some big players in this industry that you might have heard of: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform, Alibaba Cloud, Salesforce, IBM Cloud, Oracle Cloud and the list continues.&lt;/p&gt;
+
+&lt;p&gt;These cloud providers, have facilities in every continent, located strategically in countries to be able to provide quality services to their customers world wide.&lt;/p&gt;
+
+&lt;p&gt;From now on, every time you interact with your favorite application in your smartphone or you upload a file to Google Drive or iCloud, remember that the information they store and all the cool features you enjoy live in one computer on a datacenter located somewhere in the world, and thanks to Internet, reaching that remote place is just a matter of milliseconds.&lt;/p&gt;</content><author><name></name></author><summary type="html">For this journey, I wanted to start by explaining what The Cloud is in real-world words.</summary></entry></feed>
