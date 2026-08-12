@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostList from '../../components/PostList.astro';
+import { streamFor } from '../../site';
+import { getPosts } from '../../posts';
+import { streamGraph } from '../../schema';
+
+const stream = streamFor('ficcion');
+const posts = await getPosts('ficcion');
+---
+
+<Base
+  title={stream.title}
+  description={stream.description}
+  lang={stream.lang}
+  schema={streamGraph('ficcion', posts)}
+>
+  <h1>{stream.title}</h1>
+  <p class="page-intro">
+    {stream.description} <a href="/ficcion/rss.xml">RSS</a>
+  </p>
+
+  <PostList posts={posts} empty="Todavía no hay nada publicado por aquí." />
+</Base>

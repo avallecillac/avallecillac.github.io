@@ -1,0 +1,38 @@
+---
+import { formatDate } from '../site';
+import { postPath, type Post } from '../posts';
+
+interface Props {
+  posts: Post[];
+  /** Show which stream each post came from — used on the combined home list. */
+  showStream?: boolean;
+  empty?: string;
+}
+
+const { posts, showStream = false, empty = 'Nothing here yet.' } = Astro.props;
+---
+
+{
+  posts.length === 0 ? (
+    <p class="page-intro">{empty}</p>
+  ) : (
+    <ul class="post-list">
+      {posts.map((post) => (
+        <li>
+          <h2>
+            <a href={postPath(post)}>{post.data.title}</a>
+          </h2>
+          <div class="post-meta">
+            <time datetime={post.data.date.toISOString()}>
+              {formatDate(post.data.date, post.data.lang)}
+            </time>
+            {showStream && <span class="tag">{post.collection}</span>}
+            {post.data.lang === 'es' && <span class="tag">es</span>}
+            {import.meta.env.DEV && post.data.draft && <span class="tag">draft</span>}
+          </div>
+          {post.data.description && <p>{post.data.description}</p>}
+        </li>
+      ))}
+    </ul>
+  )
+}

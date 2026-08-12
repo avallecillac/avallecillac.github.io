@@ -1,0 +1,128 @@
+---
+import Base from './Base.astro';
+import { site, author, formatDate, streamFor } from '../site';
+import { postPath, readingTime, getRelated, getTranslations, type Post } from '../posts';
+import { postGraph } from '../schema';
+
+interface Props {
+  post: Post;
+}
+
+const { post } = Astro.props;
+const { title, description, date, updated, lang, tags, takeaways, ogImage, noindex } = post.data;
+
+const stream = streamFor(post.collection);
+const minutes = readingTime(post);
+const related = await getRelated(post);
+const translations = await getTranslations(post);
+
+const card = ogImage ?? site.ogImage;
+const schema = postGraph(post, new URL(card, site.url).href);
+
+const t =
+  lang === 'es'
+    ? {
+        keyPoints: 'Puntos clave',
+        minRead: `${minutes} min de lectura`,
+        updated: 'actualizado',
+        related: 'Sigue leyendo',
+        alsoIn: 'También disponible en',
+        by: 'Por',
+      }
+    : {
+        keyPoints: 'Key points',
+        minRead: `${minutes} min read`,
+        updated: 'updated',
+        related: 'Keep reading',
+        alsoIn: 'Also available in',
+        by: 'By',
+      };
+
+const langName = (code: string) => (code === 'es' ? 'Español' : 'English');
+---
+
+<Base
+  title={title}
+  description={description}
+  lang={lang}
+  type="article"
+  schema={schema}
+  ogImage={card}
+  noindex={noindex}
+  alternates={translations.map((other) => ({ lang: other.data.lang, path: postPath(other) }))}
+  publishedTime={date}
+  modifiedTime={updated ?? date}
+  section={stream.title}
+  tags={tags}
+>
+  <article>
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">{site.title}</a> <span aria-hidden="true">›</span> <a href={stream.href}>{stream.label}</a>
+    </nav>
+
+    <header class="post-header">
+      <h1>{title}</h1>
+      <div class="post-meta">
+        <span>{t.by} <a href="/about/" rel="author">{author.name}</a></span>
+        <time datetime={date.toISOString()}>{formatDate(date, lang)}</time>
+        {
+          updated && (
+            <time datetime={updated.toISOString()}>
+              {t.updated} {formatDate(updated, lang)}
+            </time>
+          )
+        }
+        <span>{t.minRead}</span>
+        {tags.map((tag) => <span class="tag">{tag}</span>)}
+      </div>
+
+      {
+        translations.length > 0 && (
+          <p class="translations">
+            {t.alsoIn}:{' '}
+            {translations.map((other) => (
+              <a href={postPath(other)} hreflang={other.data.lang} lang={other.data.lang}>
+                {langName(other.data.lang)}
+              </a>
+            ))}
+          </p>
+        )
+      }
+    </header>
+
+    {
+      takeaways.length > 0 && (
+        <aside class="takeaways" aria-labelledby="takeaways-heading">
+          <h2 id="takeaways-heading">{t.keyPoints}</h2>
+          <ul>
+            {takeaways.map((point) => (
+              <li>{point}</li>
+            ))}
+          </ul>
+        </aside>
+      )
+    }
+
+    <div class="prose">
+      <slot />
+    </div>
+  </article>
+
+  {
+    related.length > 0 && (
+      <nav class="related" aria-labelledby="related-heading">
+        <h2 id="related-heading">{t.related}</h2>
+        <ul>
+          {related.map((other) => (
+            <li>
+              <a href={postPath(other)} lang={other.data.lang}>
+                {other.data.title}
+              </a>
+              {other.data.description && <p>{other.data.description}</p>}
+            </li>
+          ))}
+        </ul>
+      </nav>
+    )
+  }
+</Base>

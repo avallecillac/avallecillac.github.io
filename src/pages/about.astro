@@ -1,0 +1,37 @@
+---
+import Base from '../layouts/Base.astro';
+import { author } from '../site';
+import { aboutGraph } from '../schema';
+
+const description = `${author.name} — ${author.jobTitle} in ${author.location}. Writes plain-language explanations of cloud and infrastructure, and fiction in Spanish.`;
+---
+
+<Base title="About" description={description} schema={aboutGraph()}>
+  <h1>About</h1>
+
+  <div class="prose">
+    <p>
+      I'm <strong>{author.name}</strong>, a {author.jobTitle.toLowerCase()} based in {
+        author.location
+      }.
+    </p>
+    <p>
+      After more than ten years in the field I still struggle to explain to friends and family
+      what I actually do all day — they tend to leave the room either more confused than before,
+      or still convinced I mostly fix printers. (I do still fix printers, occasionally.) So this
+      site is my attempt at a more human way of explaining it.
+    </p>
+    <p>
+      I work mostly with AWS, cloud infrastructure, DevOps, Python, CI/CD, automation, Linux,
+      containers and serverless. I write about that in English, over in <a href="/tech/">Tech</a>.
+      I also write fiction in Spanish, which lives in <a href="/ficcion/">Ficción</a>.
+    </p>
+
+    <h2>Elsewhere</h2>
+    <ul>
+      <li><a href={`mailto:${author.email}`}>{author.email}</a></li>
+      <li><a href={author.social.linkedin} rel="me">LinkedIn</a></li>
+      <li><a href={author.social.github} rel="me">GitHub</a></li>
+    </ul>
+  </div>
+</Base>
