@@ -4,6 +4,7 @@ date: 2026-08-12
 description: "A lighthouse keeper, a 34-year-old claims processing system, and eleven consecutive Marches in which neither was decommissioned."
 lang: en
 tags: ["legacy-systems", "technical-debt", "essay"]
+draft: true
 ---
 
 My grandfather spent 47 years as a lighthouse keeper on the Faroe Islands.
