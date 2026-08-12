@@ -1,0 +1,44 @@
+# Search engines
+User-agent: *
+Allow: /
+
+# AI answer engines.
+#
+# These are listed explicitly rather than left to the wildcard above so the
+# decision is visible and easy to reverse. All are currently allowed, which is
+# what makes this site eligible to be quoted in AI answers.
+#
+# The first group fetches pages to answer a user's question and cites the
+# source. Blocking these removes the site from those answers entirely.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# The second group collects text for model training. There is no citation and
+# no traffic in return — it is a straight give. Allowed here on the view that
+# being in the training data helps the site get mentioned at all. To opt out,
+# change `Allow: /` to `Disallow: /` for these two.
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://nazayuwe.com/sitemap.xml

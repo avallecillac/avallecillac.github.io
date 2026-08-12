@@ -1,0 +1,68 @@
+---
+title: "The Cloud, in human words"
+date: 2020-05-16
+description: "What 'the cloud' actually is, explained with a fridge and an ice cream shop — no jargon, no prior knowledge needed."
+lang: en
+tags: ["cloud", "basics", "datacenter"]
+translationKey: "the-cloud"
+takeaways:
+  - "A datacenter is a large building full of powerful computers, kept cool the same way a fridge keeps food from spoiling."
+  - "Servers are the compartments inside that fridge, and applications are the food stored in them."
+  - "\"The cloud\" is what you get when one company owns so many datacenters that it can rent space in them to everyone else."
+  - "The largest cloud providers are Amazon Web Services, Microsoft Azure, Google Cloud Platform, Alibaba Cloud, IBM Cloud and Oracle Cloud."
+  - "Every file you put in Google Drive or iCloud is sitting on a physical computer in a building somewhere in the world."
+---
+
+For this journey, I wanted to start by explaining what **The Cloud** is in real-world words.
+
+We are about to start reading a lot of new words that might sound too technical, so let´s use a metaphor to smooth things up.
+
+## The Fridge metaphor
+
+**DataCenter** = Fridge (Yes, the fridge from your house).
+
+**Computers/Servers** = Compartments of the fridge.
+
+**Applications** = Food stored in the compartments.
+
+- The fridge keeps the ideal temperature to preserve the food inside. 
+  **Datacenter** is a large facility full of racks with powerful computers and many other devices. Just like your laptop, these super computers can heat up and eventually break, so proper refrigeration is required to keep them stable.
+- Compartments have different sizes and some even have a lid for long preservation.
+  **Computers/Servers** have different design, specifications and operating systems to host different types of applications.
+- Food is organized in the compartments based on their type: Fruits, vegetables, meat, dairy, etc.
+  **Applications** are programs installed in computers. And these are the ones you interact with every day of your life from your smartphones and computers. Believe it or not, these applications such as WhatsApp, Instagram, Facebook and Google are all installed in the super computers and Datacenters described above.
+
+![A fridge with labelled compartments, mapped to a datacenter, servers and applications](../../assets/images/cloud/fridge-sm.png)
+
+I hope you are still with me. Now, lets put these concepts in practice and see how they will become **"The Cloud"** and how it impacts us.
+
+### The ice cream shop business success case
+
+Let's say you just started a small home made ice cream shop. You bought a small fridge to store fruits, milk, rest of ingredients and, of course, ice cream. To follow up our metaphor, you now have a mini Datacenter, with 
+a couple of computers and some applications installed on them.
+
+After four months, your business starts thriving and the small fridge is not large enough to store the ramp-up of ingredients. After some calculations, you decide to buy two industrial fridges so you don't have to worry about storage for a while. Industrial fridges will prolong ingredients conservation and store a wider sort of new ingredients for the additional flavors you offer now.
+
+![Tubs of ice cream in a shop display](../../assets/images/cloud/ice-cream.jpg)
+
+Congratulations, your business is very popular and demand is growing steadily. You open a couple of new shops and thereby more fridges. Costs are now higher, fridges' maintenance has become a thing to be dealt with as they are an essential asset to run the business. Transport of ingredients across all shops is overwhelming and very inefficient. You have hired new staff specialized in the novel areas your company has.
+
+At this point, you start to suffer the same problems as many companies which their business are supported by technology. They start having a lot of servers located in rooms with specific conditions -mini datacenters- across all locations.
+
+Your ice cream brand has positioned in the market as one of the favorite by people and has gone national and you decided to franchised the business so you can scale faster and delegate management. By now, you have several facilities across the country full of fridges -and many other types of devices- that store huge amounts of ingredients to be delivered to all shops. The fridges you have now are way too far ahead, specs wise, from the firsts you bought.
+
+You may noticed that your business model has changed dramatically. You are no longer only an ice cream shop, you've become a fridge provider at large scale and any other business that require this type of service is a potential customer, such as: butcher shops, ice cream brands, supermarkets, restaurant chains, food processing/manufacturing companies, pharmaceutical laboratories, etc.
+
+### Let's go back to our metaphor.
+
+You are now the owner of thousands of **Datacenters** located in large warehouses distributed across the country. Which means that you have thousands/millions of **computers/servers** and even more applications installed, these applications are not only the ones to run your ice cream business, but also applications from other customers that pay you to host them so they don't have to build all the infrastructure you have built over the time. This robust infrastructure is what we call a **Cloud**. In some manner, you are a Cloud provider.
+
+![Rows of server racks inside a datacenter](../../assets/images/cloud/datacenter.jpg)
+
+Nowadays, there are many cloud providers around the world. However, there are some big players in this industry that you might have heard of: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform, Alibaba Cloud, Salesforce, IBM Cloud, Oracle Cloud and the list continues.
+
+These cloud providers, have facilities in every continent, located strategically in countries to be able to provide quality services to their customers world wide.
+
+From now on, every time you interact with your favorite application in your smartphone or you upload a file to Google Drive or iCloud, remember that the information they store and all the cool features you enjoy live in one computer on a datacenter located somewhere in the world, and thanks to Internet, reaching that remote place is just a matter of milliseconds.
+
+

@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import PostList from '../components/PostList.astro';
+import { site } from '../site';
+import { getAllPosts } from '../posts';
+import { websiteGraph } from '../schema';
+
+const posts = await getAllPosts();
+---
+
+<Base title={site.title} description={site.blurb} schema={websiteGraph()}>
+  <h1>{site.tagline}</h1>
+  <p class="page-intro">
+    I'm Alejandro, a cloud engineer in Amsterdam. I write about technology in English, and
+    fiction in Spanish. Two streams, one place — pick whichever you came for.
+  </p>
+
+  <PostList posts={posts} showStream empty="First post coming soon." />
+</Base>
