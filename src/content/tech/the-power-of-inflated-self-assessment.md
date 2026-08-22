@@ -6,7 +6,6 @@ lang: en
 tags:
   - Engineering culture
 ---
-
 # The power of inflated self-assessment
 
 I’ve been thinking lately about a certain behavior of people that tend to be loud and vocal. It started at work, with those colleagues who like to be seen and seem to be truly believers of the idea that having opinions on everything, regardless of their actual knowledge over the topic, is the way to be acknowledged in the form of visual recognition, mere remembrance, priority when new opportunities emerge, salary raises, or promotions.
@@ -15,7 +14,7 @@ I find it somehow exhausting when by chance I get to converse with these charact
 
 After I manage to compose myself and go back to my *true self*, the next aspect that catches my eye is their lack of depth in the topics they embark on. Oversimplification: the fallacy of the single cause. Masters of casual reductionism. They don’t leave room for other points of view and jump right into their conclusion, making it really unattractive to debate. Well, that’s the thing; I don’t think they like to debate. It would take them out of their position of power and comfortable podium.
 
-I shared this thought with a group of friends last night, and many of them realized they’ve met a lot of people behaving the same. Especially, in their professional life, not just in software engineering as is my experience. So I kept pulling that thread to try to understand whether there’s a psychological study that could explain this behavior, to not merely be prejudiced, and found quite an interesting paper by David Dunning and Justin Kruger, “Unskilled and Unaware of It: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments”. They ran an experiment with undergraduate students: four studies on humor, logical reasoning, grammar and [wason selection tasks](https://en.wikipedia.org/wiki/Wason_selection_task). They take a test, then estimate two things: your percentile rank relative to peers, and how many questions you got right.
+I shared this thought with a group of friends last night, and many of them realized they’ve met a lot of people behaving the same. Especially, in their professional life, not just in software engineering as is my experience. So I kept pulling that thread to try to understand whether there’s a psychological study that could explain this behavior, to not merely be prejudiced, and found quite an interesting paper by David Dunning and Justin Kruger, “[Unskilled and Unaware of It: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments](https://www.researchgate.net/publication/12688660_Unskilled_and_Unaware_of_It_How_Difficulties_in_Recognizing_One's_Own_Incompetence_Lead_to_Inflated_Self-Assessments)”. They ran an experiment with undergraduate students: four studies on humor, logical reasoning, grammar and [wason selection tasks](https://en.wikipedia.org/wiki/Wason_selection_task). They take a test, then estimate two things: your percentile rank relative to peers, and how many questions you got right.
 
 Let's go through the conclusions of the experiment and look for the explanations:
 
