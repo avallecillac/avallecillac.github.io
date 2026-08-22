@@ -1,8 +1,7 @@
 ---
 title: "The power of inflated self-assessment"
 description: "Kruger and Dunning gave undergraduates tests in humor, logic, grammar and formal reasoning, then asked them how they had done. The bottom quartile rated themselves above average in all four studies. The top quartile rated themselves below what they had scored. Both errors come from the same missing skill, and ten minutes of training moved one of them."
-pubDate: 2026-08-22
-author: alejandro-vallecilla
+date: 2026-08-22
 lang: en
 tags:
   - Engineering culture
